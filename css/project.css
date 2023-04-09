@@ -1,0 +1,529 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.clearfix{
+   clear: both;
+}
+.header {
+    /* position: absolute; */
+    width: 100%;
+    height: 50px;
+    background-color: rgb(205, 198, 198);
+ top: 0%;
+ position: fixed;
+ margin: 0%;
+ z-index: 999;
+}
+
+.img1{
+    height: 50px;
+    width: 65px;
+    margin-left:200px ;
+    float: left;
+
+}
+
+body{
+    height: 3800px;
+} 
+
+.li1{
+    float: left;
+    margin-left:200px;   
+    margin-top: 15px; 
+}
+
+.li1 li{
+    list-style: none;
+   display: inline;
+   margin-left:30px ;
+   
+}
+
+button{
+
+   margin: 15px 0px 0px        450px ;
+   
+}
+
+.li1 li a{
+   text-decoration: none;
+} 
+
+
+/* /////////////////////////////////////  SECTION  1 //////////////////////////////////////////////// */
+ .div1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/crack-brick-wall-black-background-2034695.jpg);
+
+ }
+
+ .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba( 0,0,0 , 0.7);
+
+ }
+ .heroimage{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+ }
+ .btn1{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    margin: 20px auto ;
+    color: aliceblue;
+ }
+ .content1{
+    color: aliceblue;
+    font-size: 45px;
+ }
+ .content2{
+    color: aliceblue;
+    font-size: 25px;
+    word-spacing: 7px;
+    margin-top: 15px;
+ }
+
+ .div2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+ }
+ .content3{
+    text-align: center;
+    font-size: 40px;
+
+ }
+ .div3{
+    margin-top: 80px;
+
+ }
+
+ .div4{
+    height: 5px;
+    width: 60px;
+    background-color: black;
+    margin: 15px auto;
+}
+
+
+/*  ///////    SECTION  2  //////////// //////////////////////////////////////////////////////////////// */
+
+.p-worktime{
+width: 100%;
+height: 600px;
+background-color:rgb(242, 242, 242);
+
+}
+
+
+.map{
+   width: 800px;
+   height: 400px;
+   /* display: none; */
+   float: left;
+   margin: 100px 70px;
+}
+.img2{
+   width: 100%;
+   height: 100%;
+
+    }
+    
+.work-time{
+   float: right;
+   margin-top: 100px ;
+  margin-right: 320px;
+   width: 250px;
+   height: 270px;
+   /* position: relative; */
+   text-align: center;
+ 
+} 
+
+.btn3{
+   margin: 55px  ;
+   width: 180px;
+   height: 60px;
+   color:black;
+   font-size: 15px;
+background-color: white;
+}
+.p2{
+   
+   font-size: 25px;
+   /* position: absolute; */
+   color: brown;
+}
+.p3{
+margin-top: 30px;
+}
+.p5{
+   margin-top: 30px ;  
+
+}
+
+
+/* ///////////////////  SECTION 3 ////////////////////////////////////////////////////////////////////// */
+
+
+.div5{     /*contaner*/
+    width: 80%;
+    height: 350px;
+    /* background-color: aquamarine; */
+    margin: 65px auto;
+}
+.div6{
+   width: 100%;
+   height: 100%;
+   margin-top: 30px;
+   /* background-color: brown; */
+
+}
+.p{
+   font-size: 20px;
+}
+
+.team-image{
+   float: left;
+   /* background-color: cadetblue; */
+   width: 30%;
+   text-align: center;
+   /* margin:50px auto ; */
+}
+
+.team-pic{
+margin: 20px auto;
+width: 100%;
+}
+
+.cont1{
+   width: 320px;
+   height: 280px;
+   background-color: rgb(212, 202, 202);
+   margin-top: 30px;
+   position: relative;
+}
+.cont2{
+   width: 320px;
+   height: 280px;
+   background-color: rgb(212, 202, 202);
+   margin-left:  80px;
+   margin-top: 30px;
+   position: relative;
+}
+.cont3{
+   width: 320px;
+   height: 280px;
+   background-color: rgb(212, 202, 202);
+   margin-left: 167px; 
+   margin-top: 30px;
+   position: relative;
+
+}
+
+.menu1{
+   width: 270px;
+   height: 250px;
+margin: auto;
+}
+.menu2{
+   width: 270px;
+   height: 250px;
+   margin:  auto;
+  
+}
+.menu3{
+   width: 270px;
+   height: 250px;
+margin: auto;
+}
+
+/* .menu1 .menu2 .menu3:hover {
+   visibility: visible;
+   opacity: 0.7;
+}  */
+.cont1:after{
+   position: absolute;
+   content: "";
+
+   width: 0;
+   height: 0;
+
+   top: 0;
+   left: 0;
+
+   background-color: black;
+   opacity: 0;
+}
+.cont1:hover::after{
+   width: 100%;
+   height: 100%;
+   opacity: 0.6;
+   transition: 1s;
+}
+
+
+.cont2:after{
+   position: absolute;
+   content: "";
+
+   width: 0;
+   height: 0;
+
+   top: 0;
+   left: 0;
+
+   background-color: black;
+   opacity: 0;
+}
+.cont2:hover::after{
+   width: 100%;
+   height: 100%;
+   opacity: 0.6;
+   transition: 1s;
+}
+
+
+.cont3:after{
+   position: absolute;
+   content: "";
+
+   width: 0;
+   height: 0;
+
+   top: 0;
+   left: 0;
+
+   background-color: black;
+   opacity: 0;
+}
+.cont3:hover::after{
+   width: 100%;
+   height: 100%;
+   opacity: 0.6;
+   transition: 1s;
+}
+
+/*///////////////////////////////////// SECTION 4 ///////////////////////////////////*/
+
+.b-div{
+   width: 100%;
+   height: 480px;
+   position: absolute;
+}
+.pizza-pic{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+}
+.p-div{
+   position: relative;
+   height: 300px;
+   width: 400px;
+   margin: 100px 880px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 24px;
+    
+    font-weight: 400;
+}
+.p-p1{
+   color: white;
+    font-size: 35px;
+}
+.p-p2{
+   color: white;
+   margin: 20px 0px ;
+   font-size: 30;
+}
+.line-div{
+   width: 55px;
+   height: 3px;
+   background-color: yellow;
+   margin: 30px 0px;
+}
+.pizza-btn{
+width: 260px;
+height: 60px;
+background-color:rgb(107, 188, 107);
+color: white;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+position: absolute;
+margin:10px auto;
+
+}
+.pizza-btn:hover{
+   background-color: yellow;
+   /* transition: all; */
+   color: rgb(107, 188, 107);
+}
+
+/*////////////////////////////////////////////////// pricing ///////////////////////////////////////////////*/
+
+.parent2{
+   width: 100%;
+   height: 100vh;
+   /* background-color: rgb(246, 242, 242); */
+   margin-top:  460px; 
+   /* padding-bottom: 30px; */
+   position: relative;
+}
+.div-title{
+   width: 100px;
+   height: 100px;
+   margin: -150px 690px;
+   position: absolute;
+   /* background-color: #777; */
+   line-height: 90px;
+   font-size: 35px;
+   font-weight: 400;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.pri-title{
+ text-align: center;
+ margin-top: 200px;
+
+
+}
+.pri-line{
+width: 70px;
+height: 5px;
+background-color: royalblue;
+/* margin: 70px auto; */
+margin: auto 60px;
+
+}
+
+.pricing-box{
+   position: relative;
+   border: 1px solid;
+   float: left;
+   padding: 15px;
+   width: 300px;
+   text-align: center;
+   height: 350px;
+   margin-top: 200px;
+   
+}
+ 
+.pricing-box2{
+   margin: 0 65px;
+   margin-top: 200px;
+}
+.pricing-box h3{
+   text-transform: uppercase;
+   color: #999;
+   font-weight: 400;
+}
+
+.pricing-box .price{
+   border: 1px solid;
+   margin: 20px auto;
+   width: 120px;
+   height: 100px;
+   border-radius: 50%;
+   font-size: 34px;
+   font-weight: 600;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.pricing-box a{
+   border: 1px solid blue;
+   color: #777;
+   padding:5px 20px;
+   margin-top: 20px;
+   text-decoration: none;
+}
+
+.pricing-container{
+   margin: 200px auto;
+   /* border: 2px solid; */
+   width: fit-content;
+}
+
+.ul-1{
+   list-style: none;
+   color: #777;
+   margin: 30px auto;
+   line-height: 25px;
+}
+
+
+.pricing-box::after{
+   position: absolute;
+   content: "";
+
+   width: 0;
+   height: 0;
+
+   top: 0;
+  right: 0;
+  
+
+   background-color: black;
+   opacity: 0;
+}
+.pricing-box:hover::after{
+   width: 100%;
+   height: 100%;
+   opacity: 0.5;
+   transition: 1s;
+}
+/*////////////////////////////////////////////// FOOTER////////////////////////////////////////////*/
+
+.parent3{
+   width: 100%;
+   height: 400px;
+   background-color: #4c4d52;
+}
+.footer-img{
+   width: 200px;
+   height: 100px;
+   margin: 60px 650px;
+
+}
+.icon-div{
+margin:  auto 500px;
+/* background-color: #ffffff; */
+/* width: 60px; */
+/* display: inline; */
+
+}
+
+.icon-div a{
+   width:50px ;
+   height: 50px;
+   border-radius: 50%;
+   color:black;
+   background-color:  #6195ff; ;
+   display: inline-block;
+   margin: 0px 25px;
+
+}
+
+.p-footer{
+   text-align: center;
+   color: #999;
+   margin-top: 30px;
+}
+.li-icon{
+   background-color: white;
+}
